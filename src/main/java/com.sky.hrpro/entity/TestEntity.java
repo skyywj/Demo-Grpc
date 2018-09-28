@@ -3,7 +3,7 @@ package com.sky.hrpro.entity;
 import java.util.Objects;
 
 /**
- * @Author: YanWenjie
+ * @Author: CarryJey
  * @Date: 2018/9/27 上午10:30
  */
 public class TestEntity {
