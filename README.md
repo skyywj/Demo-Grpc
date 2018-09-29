@@ -1,7 +1,7 @@
 注意代码格式化：IDEA
 快捷键 windows：ctrl+alt+l   mac：option+command+l（win+alt+l）
 
-此项目为demo-grpc项目
+此项目为demo-grpc项目:支持grpc，mysql，redis，redisson，事务
 
 学习springboot连接mysql
 

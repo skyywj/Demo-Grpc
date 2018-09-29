@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67322f2-cab2-4479-91e5-151646069996" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/dao/TestDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/dao/TestDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -52,12 +46,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HrProsApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HrProsApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="161">
+              <caret line="154" selection-start-line="154" selection-end-line="168" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#5623#5624#0" expanded="true" />
                 <element signature="e#5667#5668#0" expanded="true" />
                 <element signature="e#5704#5705#0" expanded="true" />
@@ -78,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestTestService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestTestService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -150,12 +145,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/notify/TestNotify.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/TestUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/dao/TestDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java" />
       </list>
     </option>
   </component>
@@ -204,7 +199,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1006" />
@@ -356,9 +351,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTestService.testCache">
+  <component name="RunManager" selected="JUnit.TestRedissonService.testRedisson">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestRedissonService.testRedisson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.hrpro.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sky.hrpro.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.hrpro.service.TestRedissonService" />
+      <option name="METHOD_NAME" value="testRedisson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestTestService.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
@@ -452,29 +470,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test.testGrpc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sky.hrpro.grpc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sky.hrpro.grpc" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.hrpro.grpc.Test" />
-      <option name="METHOD_NAME" value="testGrpc" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -524,19 +519,19 @@
     <list>
       <item itemvalue="Spring Boot.HrProsApplication" />
       <item itemvalue="Spring Boot.HrProsApplication (1)" />
-      <item itemvalue="JUnit.Test.testGrpc" />
       <item itemvalue="JUnit.Test.test" />
       <item itemvalue="JUnit.TestTestService.test01" />
       <item itemvalue="JUnit.TestTestService.testTransational" />
       <item itemvalue="JUnit.TestTestService.testCache" />
+      <item itemvalue="JUnit.TestRedissonService.testRedisson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRedissonService.testRedisson" />
         <item itemvalue="JUnit.TestTestService.testCache" />
         <item itemvalue="JUnit.TestTestService.testTransational" />
         <item itemvalue="JUnit.TestTestService.test01" />
         <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="JUnit.Test.testGrpc" />
       </list>
     </recent_temporary>
   </component>
@@ -556,14 +551,11 @@
       <workItem from="1538114390449" duration="3514000" />
       <workItem from="1538131689530" duration="280000" />
       <workItem from="1538142504233" duration="521000" />
-      <workItem from="1538192008671" duration="456000" />
+      <workItem from="1538192008671" duration="1163000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTestService_testTransational - 2018.09.28 at 14h 18m 17s.xml">
-      <configuration name="TestTestService.testTransational" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTestService_testTransational - 2018.09.28 at 14h 20m 57s.xml">
       <configuration name="TestTestService.testTransational" configurationId="JUnit" />
     </history-entry>
@@ -591,12 +583,15 @@
     <history-entry file="TestTestService_testTransational - 2018.09.28 at 14h 46m 42s.xml">
       <configuration name="TestTestService.testTransational" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTestService_testCache - 2018.09.29 at 11h 41m 15s.xml">
+      <configuration name="TestTestService.testCache" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31433000" />
+    <option name="totallyTimeSpent" value="32140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1006" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -611,6 +606,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5496614" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -618,13 +614,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32844242" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40970653" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34611288" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40970653" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34611288" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -948,21 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#5623#5624#0" expanded="true" />
-            <element signature="e#5667#5668#0" expanded="true" />
-            <element signature="e#5704#5705#0" expanded="true" />
-            <element signature="e#5741#5742#0" expanded="true" />
-            <element signature="e#5788#5789#0" expanded="true" />
-            <element signature="e#5837#5838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/dao/TestDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-89">
@@ -987,13 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/PrintRequestIdClientInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1010,8 +983,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="154" selection-start-line="154" selection-end-line="168" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5667#5668#0" expanded="true" />
+            <element signature="e#5704#5705#0" expanded="true" />
+            <element signature="e#5741#5742#0" expanded="true" />
+            <element signature="e#5788#5789#0" expanded="true" />
+            <element signature="e#5837#5838#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

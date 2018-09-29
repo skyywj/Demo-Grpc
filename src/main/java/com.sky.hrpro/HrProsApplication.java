@@ -152,19 +152,19 @@ public class HrProsApplication{
     @Autowired
     private RedisProperties redisProperties;
 
-//    @Bean
-//    public RedissonClient redissonClient() {
-//        Config config = new Config();
-//
-//        SingleServerConfig singleServerConfig = config.useSingleServer();
-//        String schema = redisProperties.isSsl() ? "rediss://" : "redis://";
-//        singleServerConfig.setAddress(schema + redisProperties.getHost() + ":" + redisProperties.getPort());
-//        singleServerConfig.setDatabase(redisProperties.getDatabase());
-//        if (redisProperties.getPassword() != null) {
-//            singleServerConfig.setPassword(redisProperties.getPassword());
-//        }
-//
-//        // 其他配置项都先采用默认值
-//        return Redisson.create(config);
-//    }
+    @Bean
+    public RedissonClient redissonClient() {
+        Config config = new Config();
+
+        SingleServerConfig singleServerConfig = config.useSingleServer();
+        String schema = redisProperties.isSsl() ? "rediss://" : "redis://";
+        singleServerConfig.setAddress(schema + redisProperties.getHost() + ":" + redisProperties.getPort());
+        singleServerConfig.setDatabase(redisProperties.getDatabase());
+        if (redisProperties.getPassword() != null) {
+            singleServerConfig.setPassword(redisProperties.getPassword());
+        }
+
+        // 其他配置项都先采用默认值
+        return Redisson.create(config);
+    }
 }
