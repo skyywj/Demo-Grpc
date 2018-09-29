@@ -37,4 +37,9 @@ public class TestTestService {
         testService.testTransactional();
     }
 
+    @org.junit.Test
+    public void testCache(){
+        testService.testCache(41);
+    }
+
 }
