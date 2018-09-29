@@ -3,6 +3,7 @@ package com.sky.hrpro.service;
 import com.sky.hrpro.dao.TestDao;
 import com.sky.hrpro.entity.TestEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,7 +18,9 @@ public class TestService {
 
     /**
      * 普通方法
+     * 使用异步线程池处理该方法
      */
+    @Async("taskScheduler")
     public void testService(){
         //此处写逻辑，注意不要在接口层去写过多逻辑，尽量放到service层
         testDao.addTest("ywj",22);
