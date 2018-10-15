@@ -21,7 +21,6 @@
 
     <properties>
         <spring.boot.version>2.0.4.RELEASE</spring.boot.version>
-        <smartisan-common.version>0.26-SNAPSHOT</smartisan-common.version>
         <grpc-jersey.version>0.3.2</grpc-jersey.version>
         <grpc.version>1.10.0</grpc.version>
         <netty.version>4.1.22.Final</netty.version>
@@ -149,6 +148,17 @@
             <version>5.0.4.Final</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.smartisan</groupId>
+            <artifactId>common</artifactId>
+            <version>0.26-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.validation</groupId>
+                    <artifactId>validation-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 
     </dependencies>
 
