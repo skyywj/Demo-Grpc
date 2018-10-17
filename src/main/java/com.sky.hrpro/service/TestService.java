@@ -47,9 +47,10 @@ public class TestService {
      * 测试缓存
      * @param id
      */
-    public void testCache(int id){
+    public TestEntity testCache(int id){
         TestEntity testEntity = testDao.getTest(id);
         System.out.println(testEntity);
+        return testEntity;
     }
 
 
